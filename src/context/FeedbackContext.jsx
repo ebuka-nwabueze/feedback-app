@@ -1,4 +1,4 @@
-import { createContext, useState, useEffect } from "react";
+import { createContext, useState } from "react";
 import { v4 as uuidv4 } from "uuid";
 
 const FeedbackContext = createContext();
@@ -33,7 +33,7 @@ export const FeedbackProvider = ({ children }) => {
     newFeedback.id = parseInt(uuidv4());
     setFeedback([newFeedback, ...feedback]);
   };
-  
+
   // Set item to be updated
   const editFeedback = (item) => {
     setFeedbackEdit({

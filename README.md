@@ -4,7 +4,11 @@ This application collects feedback for products and services.
 
 ## Run Locally
 
-Ensure Node is installed in your computer, then run using:
+- Ensure Node is installed in your computer, then install packages using:
 
-### `npm start`
+    ### `npm install`
+
+- Once installation is complete, run using:
+
+    ### `npm start`
 
